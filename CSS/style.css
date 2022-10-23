@@ -1,0 +1,171 @@
+/*header */
+.navigation .inline-block{
+    vertical-align: top;
+    flex-direction: row;
+    margin: 0px 20px 0px 20px;
+   /* background-color: antiquewhite;*/
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Passions Conflict', cursive;
+font-family: 'Roboto Flex', sans-serif;   
+color: darkslategray;
+}
+.navigation{
+    display: flex;
+}
+
+img{
+    margin: 5px;
+    align-items: center;
+    justify-items: center;
+    height: 50px;
+}
+nav{
+    width: 100%;
+    padding: 0px 5px 0px 5px;
+   }
+ul{
+    /*width: 50%;*/
+    margin-left:50%;
+}
+
+/*Intro */
+#title{
+    font-size: 24px;
+    color: darkblue;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Roboto Flex', sans-serif;  
+}
+/* Case study cards*/
+
+/* Case study card 1 */
+.titlecard{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+.bodycard{
+    font-size: 16px;
+     text-align: center;
+    color:white;
+}
+.flex-container1{
+    display:flex;
+    padding: 5px;
+}
+.card1{
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 250px;
+    background: linear-gradient(0deg, rgba(242, 101, 101, 84%), rgba(242, 101, 101, 84%)),url(../images/caseStudy1.png);
+    background-size:cover;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-top: 60px;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Roboto Flex', sans-serif;  
+    }
+.card2{
+        background-repeat: no-repeat;
+        height: 175px;
+        width: 250px;
+        background:linear-gradient(0deg, rgba(58, 74, 96, 84%), rgba(58, 74, 96, 84%)), url(../images/caseStudy2.png);
+        background-size:cover;
+        margin-left: 10px;
+        margin-right: auto;
+        padding-top: 60px;
+        border-radius: 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Passions Conflict', cursive;
+        font-family: 'Roboto Flex', sans-serif;  
+}
+.flex-container2{
+    display:flex;
+    padding: 5px;
+}
+.card3{
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 250px;
+    background: linear-gradient(0deg, rgba(16, 92, 140, 74%), rgba(16, 92, 140, 74%)),url(../images/caseStudy3.png);
+    background-size:cover;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-top: 60px;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Roboto Flex', sans-serif;  
+    }
+.card4{
+        background-repeat: no-repeat;
+        height: 175px;
+        width: 250px;
+        background:linear-gradient(0deg, rgba(49, 95, 48, 80%), rgba(49, 95, 48, 80%)), url(../images/caseStudy4.png);
+        background-size:cover;
+        margin-left: 10px;
+        margin-right: auto;
+        padding-top: 60px;
+        border-radius: 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Passions Conflict', cursive;
+        font-family: 'Roboto Flex', sans-serif;  
+}
+
+/* Footer */
+footer{
+    display: flex;
+     margin: 5px;
+    padding-left: 26%;
+ }
+ p #bottom{
+    margin:5px;
+   position: absolute;
+    bottom:0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Roboto Flex', sans-serif;  
+ }
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    flex-direction: row;
+} 
+
+@media only screen and (max-width:600px){
+    .flex-container1{
+        flex-direction: column;
+        position: relative;
+    }
+    .card1{
+        margin-left: 120px;
+    }
+    .card2{
+        margin-left: 120px;
+    }
+    .flex-container2{
+        flex-direction: column;
+        position: relative;
+    }
+    .card3{
+        margin-left: 120px;
+    }
+    .card4{
+        margin-left: 120px;
+    }
+    .footer{
+        padding-right: 30%;
+    }
+    #title{
+        margin-left: 10%;
+    }
+    .navigation{
+        margin-left: 10%;
+    }
+}
